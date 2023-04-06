@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div class="container-lg">
+        <div class="row d-flex justify-content-center">
+            <h3 class="title">Sorteador de números</h3>
+        </div>
+        <div class="row d-flex justify-content-center"> 
+            <label for="min">Min</label>
+            <input type="number" name="min" id="min">
+        </div>   
+        <div class="row d-flex justify-content-center">
+            <label for="max">Max</label>
+            <input type="number" name="max" id="max">
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div id="resultado"></div>
+            <button class="btn btn-success" id="sorteio">Sortear</button>
+        </div>
+  
+    </div>
+</body>
+</html>
