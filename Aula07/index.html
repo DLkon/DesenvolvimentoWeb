@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios com JS</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section>
+        <div class="title">
+            <h1>Formularios com Javascript</h1>
+        </div>
+
+        <div class="gender">
+            <fieldset>
+                <legend><h1>Capturando Valores</h1></legend>
+                <legend>Selecione seu Gênero:</legend>
+                <div>
+                    <input type="radio" name="gender" value="Masculino">
+                    <label for="Masculino">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="Feminino">
+                    <label for="Feminino">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="Outro">
+                    <label for="Outro">Outro</label>
+                </div>
+                <div class="btn">
+                    <button id="btn-gender">Enviar</button>
+                </div>
+            </fieldset>
+           
+            <pre id="log"></pre>
+        </div>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>Escolha seu pokemon Inicial:</legend>
+            <select name="" id="select-pokemon">
+                <option value="Squirtle">Squirtle</option>
+                <option value="Bulbasaur">Bulbasaur</option>
+                <option value="Charmander">Charmander</option>
+            </select>
+            <div class="btn">
+                <button id="btn-select">Enviar</button>
+            </div>
+        </fieldset>
+        <pre id="log-pokemon"></pre>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Escolha suas Habilidades</legend>
+            <div>
+                <input type="checkbox" name="" value="Força">
+                <label for="Força">Força</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" value="Destreza">
+                <label for="Destreza">Destreza</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" value="Constituição">
+                <label for="Constituição">Constituição</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" value="Inteligência">
+                <label for="Inteligência">Inteligência</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" value="Sabedoria">
+                <label for="Força">Sabedoria</label>
+            </div>
+            <div class="btn">
+                <button id="btn-habilidade">Enviar</button>
+            </div>
+        </fieldset>
+        <pre id="log-habilidade"></pre>
+    </section>
+</body>
+</html>
