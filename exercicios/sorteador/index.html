@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sorteador de Números</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container-lg">
+    <div class="row justify-content-center">
+      <h3 class="title">Sorteador de números</h3>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <label for="min">Min</label>
+        <input type="number" class="form-control" name="min" id="min">
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <label for="max">Max</label>
+        <input type="number" class="form-control" name="max" id="max">
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <button class="btn btn-success mt-3" id="sorteio">Sortear</button>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div id="resultado" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

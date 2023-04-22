@@ -1,0 +1,60 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/builder1k.jpg");
+    background-repeat: no-repeat;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.habilidades {
+    display: flex;
+    gap: 8px;
+}
+
+.form{
+    width: 100%;
+}
+
+button {
+    
+    margin: 8px;
+}
+.dados{
+    display: flex;
+   
+    text-align: center;
+}
+.dado{
+    height: 40px;
+    width: 60px;
+}
+
+.resultados{
+    display: flex;
+}
+
+.historia{
+    font-size: 24px;
+}
+
+.verde{
+    color: green;
+}

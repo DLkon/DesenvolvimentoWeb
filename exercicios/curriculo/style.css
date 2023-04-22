@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cv{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 90px;
+  margin: 0 auto;
+
+}
+
+.titulo{
+    line-height: 30px;
+    font-size: 19.5pt;
+    font-weight: bold;
+}
+
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0 8px;
+}
+
+.experiencia{
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+}
+
+.detalhes{
+    display: flex;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.info{
+    width: 75%;
+}
+
+.description {
+  text-align: justify;
+}
+.data{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4em;
+}
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4em;
+}
+
+.pontos {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    margin-right: 2px; /* Espaço entre os pontos */
+}
